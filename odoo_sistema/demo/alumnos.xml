@@ -12,7 +12,6 @@
             <field name="fecha_nacimiento_per"> 2021-04-16</field>
             <field name="career">computer</field>
         </record>
-        
         <record model="sistema.alumn" id="02">
             <field name="numero_cuenta_alum">789456125</field>
             <field name="nombre_per">Perla</field>
