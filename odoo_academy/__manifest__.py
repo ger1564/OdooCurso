@@ -18,7 +18,7 @@
     
     ],
     'demo': [
-        'demo/alumnos.xml',	
+        'demo/academy_demo.xml',	
     ],
     
 }
