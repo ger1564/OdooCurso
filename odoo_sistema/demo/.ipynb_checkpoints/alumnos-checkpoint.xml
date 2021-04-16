@@ -9,8 +9,6 @@
             <field name="email_per">eduardo.garcia@gmail.com</field>
             <field name="login_per">EGarcia</field>
             <field name="password_per">E548452654</field>
-            <field name="fecha_nacimiento_per">2021-02-02</field>
-            <field name="career">computer</field>
         </record>
         
         <record model="sistema.alumn" id="02">
@@ -21,8 +19,6 @@
             <field name="email_per">perla_avila@gmail.com</field>
             <field name="login_per">PAvila</field>
             <field name="password_per">P789456125</field>
-            <field name="fecha_nacimiento_per">2021-04-02</field>
-            <field name="career">mechanic</field>
         </record>
     </data>
 </odoo>
