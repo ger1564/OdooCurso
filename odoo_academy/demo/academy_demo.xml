@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data noupdate="1">
+        <record model="academy.course" id="erp_101">
+            <field name="name">ERP 101</field>
+            <field name="description">Learn ERP System</field>
+            <field name="level">beginner</field>
+        </record>
+        
+        <record model="academy.course" id="ED_1107">
+            <field name="name">Estructuras Discretas</field>
+            <field name="description">Asignatura 4to semestre</field>
+            <field name="level">intermediate</field>
+        </record>
+        
+        <record model="academy.course" id="LFyA_1400">
+            <field name="name">Lenguajes Formales y Automátas</field>
+            <field name="description">Asignatura 5to semestre</field>
+            <field name="level">advanced</field>
+        </record>
+    </data>
+</odoo>
