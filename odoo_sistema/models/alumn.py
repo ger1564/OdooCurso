@@ -4,7 +4,7 @@ from odoo import models, fields, api
 
 class Alumn(models.Model):
     
-    _name = 'sistema.alumn'
+    _name = 'sistema.alumn' 
     _description = 'Información del Alumno'
     
     numero_cuenta_alum = fields.Integer(string='Número de cuenta', required=True)
@@ -21,3 +21,4 @@ class Alumn(models.Model):
                                                             ('mechanic','Mecánica'),
                                                             ('electronic','Electronica')],
                                                             copy=False)
+    
