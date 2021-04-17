@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <odoo>
     <data noupdate="1">
-        <record model="sistema.alumn" id="01">
+        <record model="sistema.alumn">
             <field name="numero_cuenta_alum">548452654</field>
             <field name="nombre_per">Eduardo</field>
             <field name="materno_per">Torres</field>
-            <field name="paterno_per">García</field>
+            <field name="paterno_per">Garcia</field>
             <field name="email_per">eduardo.garcia@gmail.com</field>
             <field name="login_per">EGarcia</field>
             <field name="password_per">E548452654</field>
             <field name="career">computer</field>
         </record>
-        <record model="sistema.alumn" id="02">
+        <record model="sistema.alumn">
             <field name="numero_cuenta_alum">789456125</field>
             <field name="nombre_per">Perla</field>
             <field name="materno_per">Díaz</field>
-            <field name="paterno_per">Ávila</field>
+            <field name="paterno_per">Avila</field>
             <field name="email_per">perla_avila@gmail.com</field>
             <field name="login_per">PAvila</field>
             <field name="password_per">P789456125</field>
