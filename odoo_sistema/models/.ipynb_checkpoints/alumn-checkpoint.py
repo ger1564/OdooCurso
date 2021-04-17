@@ -14,7 +14,7 @@ class Alumn(models.Model):
     email_per = fields.Char(string='Correo electrónico', required=True)       				 	
     login_per = fields.Char(string='Usuario', required=True)         					
     password_per = fields.Char(string='Contraseña', required=True)       			   		
-    fecha_nacimiento_per = fields.Date(string='Fecha de nacimiento', required=True)
+    fecha_nacimiento_per = fields.Date(string='Fecha de nacimiento')
     active = fields.Boolean(string='Activo',default=True)
     career = fields.Selection(string='Carrera',selection=[('computer','Computación'),
                                                             ('telecom', 'Telecomunicaciones'),
